@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "1f030cd4-9482-45a3-9137-d7e0a1b49b80",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing Seed7 locally",
+      "blurb": "Learn how to install Seed7 locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "59fa7105-794b-4e6d-a8d4-94199f02d238",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn Seed7",
+      "blurb": "An overview of how to get started from scratch with Seed7"
+    },
+    {
+      "uuid": "bf18dd2d-e899-4783-95d5-606d22006746",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the Seed7 track",
+      "blurb": "Learn how to test your Seed7 exercises on Exercism"
+    },
+    {
+      "uuid": "485e38f9-6b5f-427e-937b-a10eec429904",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful Seed7 resources",
+      "blurb": "A collection of useful resources to help you master Seed7"
+    }
+  ]
+}
