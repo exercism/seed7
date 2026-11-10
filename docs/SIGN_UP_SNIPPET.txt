@@ -1,0 +1,16 @@
+const func string: mostCommonWord (in string: text) is func
+  result
+    var string: result is "";
+  local
+    var hash [string] integer: counts is (hash [string] integer).value;
+    var string: word is "";
+    var string: best is "";
+  begin
+    for word range split(lower(text), " ") do
+      if word in counts then incr(counts[word]); else counts @:= [word] 1; end if;
+      if best = "" or counts[word] > counts[best] then
+        best := word;
+      end if;
+    end for;
+    result := "\"" & best & "\" appears " & str(counts[best]) & " times";
+  end func;
